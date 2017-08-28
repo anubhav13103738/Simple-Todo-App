@@ -1,8 +1,8 @@
 {
-  "name": "serverside",
+  "name": "codalien",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./public/js/serverside/server.js",
   "dependencies": {
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",
@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./public/js/serverside/server.js"
   },
   "author": "",
   "license": "ISC"
