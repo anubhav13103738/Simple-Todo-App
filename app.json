@@ -1,0 +1,8 @@
+{
+  "name":"codalien",
+  "description":"A simple todo App implemented in MEAN stack",
+  "repository":"https://github.com/anubhav13103738/Simple-Todo-App",
+  "logo":"",
+  "keywords":["node","express","static"],
+  "image":""
+}
