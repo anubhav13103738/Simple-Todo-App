@@ -77,7 +77,7 @@ app.get("/gotData",(req,res)=>{
 });
 });
 
-app.listen("1234",function (err) {
+app.listen(process.env.PORT || 1234,function (err) {
     if(err){
         console.log("cannot open server:", err);
     }else {
