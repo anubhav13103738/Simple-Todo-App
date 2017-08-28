@@ -9,6 +9,7 @@ app.controller("mainController",function ($scope,$window,mainFactory) {
     $scope.editName = "";
     $scope.editDesc = "";
     var editId = "";
+    $scope.todos=[];
     $scope.getData = function() {
         var promise = mainFactory.getter();
         function pass(data){
@@ -34,14 +35,14 @@ app.controller("mainController",function ($scope,$window,mainFactory) {
         $scope.editShow=false;
         $scope.getData();
         //we can use these if we want to refresh the page with crud operations
-        //$window.location.href='/';
+        $window.location.href='/';
     };
 
     $scope.delete = function(name,desc,id){
         mainFactory.deleter(name, desc,id);
         $scope.getData();
         //we can use these if we want to refresh the page with crud operations
-        //$window.location.href='/';
+        $window.location.href='/';
     };
     $scope.sort = function () {
         $scope.sortType = 'name';
@@ -51,7 +52,7 @@ app.controller("mainController",function ($scope,$window,mainFactory) {
         mainFactory.setter($scope.name, $scope.description);
         $scope.getData();
         //we can use these if we want to refresh the page with crud operations
-        //$window.location.href='/';
+        $window.location.href='/';
     };
 
 });
