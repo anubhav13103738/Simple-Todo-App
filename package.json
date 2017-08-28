@@ -1,11 +1,26 @@
 {
   "name": "codalien",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple todo App implemented in MEAN stack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "annu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "mongodb": "^2.2.31",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhav13103738/Simple-Todo-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anubhav13103738/Simple-Todo-App/issues"
+  },
+  "homepage": "https://github.com/anubhav13103738/Simple-Todo-App#readme"
 }
