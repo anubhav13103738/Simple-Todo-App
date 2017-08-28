@@ -1,1 +1,1 @@
-web: node ./public/js/serverside/server.js
+web: node ./public/js/serverside/server.js -p $PORT
