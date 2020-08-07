@@ -8,7 +8,7 @@ var cookieParser = require('cookie-parser');
 var mongo = require('mongodb');
 var MongoClient = require('mongodb').MongoClient;
 var path = require("path");
-var url = 'mongodb://root:root@ds161493.mlab.com:61493/codalien';
+var url = process.env.MONGOCONNECTION;
 var db;
 
 
